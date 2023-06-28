@@ -28,6 +28,10 @@ export const footerLists = [
 			 	title: 'Long stay rent',
 			 	slug: '/landing-pages/landing-3',
 			 },
+			 {
+				title: 'Sell property',
+				slug: '/landing-pages/landing-3',
+			},
 		],
 	},
 	{
