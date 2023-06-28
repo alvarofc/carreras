@@ -7,74 +7,58 @@ export const footerSocials = [
   {
     name: 'Youtube',
     url: 'https://youtube.com/c/LittleSticks',
-    icon: "mdi:youtube",
+    icon: "mdi:instagram",
   },
-  {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
-    icon: "mdi:github",
-  },
-  {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
-    icon: "ic:baseline-discord",
-  },
+  
 ]
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: 'Manage your property',
 		items: [
 			{
-				title: 'Landing Page 1',
+				title: 'Coliving',
 				slug: '/landing-pages/landing-1',
 			},
 			{
-				title: 'Landing Page 2',
+				title: 'Vacational',
 				slug: '/landing-pages/landing-2',
 			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
+       {
+			 	title: 'Long stay rent',
+			 	slug: '/landing-pages/landing-3',
+			 },
 		],
 	},
 	{
-		title: 'Company',
+		title: 'Find a property',
 		items: [
 			{
-				title: 'About',
+				title: 'Buy a property',
 				slug: '/company/about',
 			},
 			{
-				title: 'Blog',
+				title: 'List your property',
 				slug: '/blog',
 			},
 			{
-				title: 'Contact',
+				title: 'Help with renovation',
+				slug: '/company/contact',
+			},
+			{
+				title: 'Legal help',
 				slug: '/company/contact',
 			},
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Rent a space',
 		items: [
 			{
-				title: 'Get Started',
+				title: 'Available properties',
 				slug: '/theme/get-started',
 			},
-			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
-			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+			
 		],
 	},
 ];
